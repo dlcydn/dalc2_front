@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
-  
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,38 +11,40 @@
 </head>
 
 <body>
-  <div class="container">
 
-    <div class="row">
-      <div id="profile" class="col-5">
-        <h4><img class="icon" src="./icon/person.svg"> 프로필</h4>
-        <img class="iconR" src="./icon/pencil-square.svg">
-        <iframe name="name"></iframe>
-      </div>
-
-      <div id="favor" class="col-7">
-        <h4><img class="icon" src="./icon/bookmark-star-fill.svg"> 즐겨찾기 목록 
-          <img class="icon" src="./icon/plus-circle.svg"></h4>
-        <img class="iconR" src="./icon/share.svg">
-        <iframe name="favorite"></iframe>
-      </div>  
-    </div>
-
-    <br>
-  
-    <div class="row">
-      <div id="search" class="col-5">
-        <h4><img class="icon" src="./icon/search.svg"> 검색 기록</h4>
-        <img class="iconR" src="./icon/dash-circle.svg">
-        <iframe name="searchlist"></iframe>
-      </div>
-
-      <div id="taste" class="col-7">
-        <h4><img class="icon" src="./icon/heart-fill.svg"> 나의 취향</h4>
-        <iframe name="tasteGraph"></iframe>
-      </div>
-    </div>
-
+  <div id="mainGround">
+    <h1>main ground</h1>
+    <!-- top menu -->
   </div>
+
+  <div class="row">
+    <div id="favor" class="col-7">
+      <h4><img class="icon" src="./icon/bookmark-star-fill.svg"> 취향별 향수추천</h4>
+      <a href="https://www.google.co.kr"><img class="iconR" src="./icon/google.png"></a>
+      <a href="https://www.facebook.com"><img class="iconR" src="./icon/facebook.png"></a>
+      <a href="https://www.kakao.com"><img class="iconR" src="./icon/kakaotalk.png"></a>
+      <a href="https://www.naver.com/"><img class="iconR" src="./icon/naver.png"></a>
+        <img class="iconR" src="./icon/share.svg"> 
+      <iframe name="favorite"></iframe>
+    </div>  
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div id="profile" class="col-5">
+      <h4>프로필</h4>
+      <iframe name="profileFrame"></iframe>
+    </div>
+
+    <div id="search" class="col-5">
+      <h4>향수검색</h4>
+      <iframe name="searchWin"></iframe>
+    </div>
+  </div>
+
+  
+  
+
 </body>
 </html>

@@ -1,10 +1,4 @@
-#mainGround{
-  background-color: antiquewhite;
-}
-#mainGround h1{
-  text-align: center;
-  padding: 15%;
-}
+
 iframe{
   border: 1px solid #ccc;
   border-radius: 10px;
