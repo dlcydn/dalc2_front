@@ -27,10 +27,10 @@
                     <a class="nav-link" href="#"><i class="bi bi-box-arrow-in-right"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="mypage.html" target="_self"><i class="bi bi-person"></i></a>
+                    <a class="nav-link" href="mypage.html"><i class="bi bi-person"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-house-door"></i></a>
+                    <a class="nav-link" href="main.html"><i class="bi bi-house-door"></i></a>
                 </li>
             </ul>
           </li>
@@ -46,14 +46,13 @@
     <!-- 부트스트랩의 row, col-5등 사용해서 나눴는데 제가 잘 못쓰고있는거같아요ㅎ -->
     
     <!-- iframe 사용하면 안에 내용을 다 html연결해야하나 싶어서 전부 파일 만들었는데 아직 구현못했습니다. -->
-    <div class="row">
-      <div id="profile" class="col-5">
+      <div id="profile">
         <h4><img class="icon" src="./icon/person.svg"> 프로필</h4>
         <img class="iconR" src="./icon/pencil-square.svg">
         <iframe name="profileFrame"></iframe>
       </div>
       
-      <div id="favor" class="col-7">
+      <div id="favor">
         <h4>
           <img class="icon" src="./icon/bookmark-star-fill.svg"> 즐겨찾기 목록 
           <img class="icon" src="./icon/plus-circle.svg">
@@ -65,22 +64,19 @@
         <img class="iconR" src="./icon/share.svg"> 
         <iframe name="favorFrame"></iframe>
       </div>  
-    </div>
-
-    <br>
-  
-    <div class="row">
-      <div id="search" class="col-5">
+      <div>&nbsp;</div>
+    
+      <div id="search">
         <h4><img class="icon" src="./icon/search.svg"> 검색 기록</h4>
         <img class="iconR" src="./icon/dash-circle.svg">
         <iframe name="searchFrame"></iframe>
       </div>
+      <div>&nbsp;</div>
 
-      <div id="taste" class="col-7">
+      <div id="taste">
         <h4><img class="icon" src="./icon/heart-fill.svg"> 나의 취향</h4>
         <iframe name="tasteFrame"></iframe>
       </div>
-    </div>
 
   </div>
 </body>
