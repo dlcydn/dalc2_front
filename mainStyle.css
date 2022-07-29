@@ -1,5 +1,7 @@
 #mainGround{
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
+  background-image: url('img/background.png'); /* change */
+  background-size: cover;
 }
 #mainGround h1{
   text-align: center;
