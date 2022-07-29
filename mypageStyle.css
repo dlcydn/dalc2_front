@@ -19,9 +19,6 @@ h4{
   height: 25px;
   margin-right: 3%;
 }
-.row{
-  margin: 2%;
-}
 
 a {
   text-decoration: none;
@@ -59,4 +56,38 @@ li {
 
 .nav-item > a, i {
   color: black;
+}
+
+article {
+  /* background-color: antiquewhite; */
+  background-image: url('img/background.png'); 
+  background-size: cover;
+}
+
+#profile {
+  width: 25%;
+  height: 150px;
+  float: left;
+  padding: 10px;
+}
+
+#favor {
+  width: 75%;
+  height: 300px;
+  float: right;
+  padding: 10px;
+}
+
+#search {
+  width: 25%;
+  height: 450px;
+  float: left;
+  padding: 10px;
+}
+
+#taste {
+  width: 75%;
+  height: 300px;
+  float: right;
+  padding: 10px;
 }
