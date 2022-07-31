@@ -1,5 +1,4 @@
 #mainGround{
-  /* background-color: antiquewhite; */
   background-image: url('img/background.png'); /* change */
   background-size: cover;
 }
@@ -7,6 +6,8 @@
   text-align: center;
   padding: 10%;
 }
+
+/* 프레임 구성 css */
 iframe{
   margin-top: 2%;
   margin-bottom: 2%;
@@ -32,7 +33,6 @@ h4{
 }
 .iconR{
   float: right; 
-  /* display: inline-block; */
   width:25px;
   height: 25px;
   margin-right: 3%;
