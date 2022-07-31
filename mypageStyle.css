@@ -1,4 +1,4 @@
-
+/* 프레임 css */
 iframe{
   border: 1px solid #ccc;
   border-radius: 10px;
@@ -14,7 +14,6 @@ h4{
 }
 .iconR{
   float: right; 
-  /* display: inline-block; */
   width:25px;
   height: 25px;
   margin-right: 3%;
@@ -59,7 +58,6 @@ li {
 }
 
 article {
-  /* background-color: antiquewhite; */
   background-image: url('img/background.png'); 
   background-size: cover;
 }
