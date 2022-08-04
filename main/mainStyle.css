@@ -90,3 +90,27 @@ ul {
   display: block;
   border: solid 1px red;
 }
+
+/* 로그인 전의 메인 화면 css */
+#in{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  width: 100%;
+}
+#profile button{
+  border-radius: 5px;
+  background-color: white;
+  width: 90%;
+  margin: 8px;
+  padding: 5px;
+  margin-left: 13px;
+}
+#login{
+  border: solid 2px #6CB0C6B2;
+}
+#signin{
+  border: solid 2px #8B2C94B2;
+}
+/*  */
