@@ -1,3 +1,4 @@
+
 #mainGround{
   background-image: url('../img/background.png'); /* change */
   background-size: cover;
@@ -63,6 +64,18 @@ ul {
   width: 80%;
   margin: 5em;
   margin-top: 20em;
-
-  
+  /* border: solid 1px red; */
 }
+
+#maintext{
+  border: solid 1px white;
+  height: 90vh;
+  background-image: linear-gradient(
+    rgba(225,225,225,0.3),
+    rgba(225,225,225,0.3)
+  ),url('../img/background.png');
+  background-size: cover;
+}
+/* border는 원래 화면 영역 편하게 보려고 넣었던것인데 
+  삭제하니까 화면이 이상해져서 그냥 두었습니다..  */
+
