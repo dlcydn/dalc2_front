@@ -57,10 +57,17 @@ ul {
 }
 
 /*  */
+.container{
+  height: 100%;
+  background-image: url('../img/background.png');
+  background-size: cover;
+}
 .background{
-  border: solid 2px #ccc;
-  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
   margin: 2em;
+  padding: 1em;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 figure img{
   height: 100%;
@@ -68,11 +75,13 @@ figure img{
 }
 figure{
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   align-items: center;
 }
 figcaption{
+  margin-top: 2em;
   text-align: center;
+  font-size:xx-large;
   /* margin-right: 1em; */
 }
 
@@ -104,3 +113,5 @@ span{
 .rightSide{
   margin-bottom: 1em;
 }
+
+/*  */
