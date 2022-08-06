@@ -79,16 +79,27 @@ ul {
 }
 
 /* 드롭박스 메뉴 : 위치 및 css 안됨 */
-.drop{
-  position: relative;
-  display: inline-block;
+#sub-link{
+  text-decoration: none;
 }
+
 .dropdown{
   display: none;
+  width: 10em;
+  height: 30em;
+  position: absolute;
+  background-color:antiquewhite;
 }
-.drop:hover .dropdown{
+  
+#dropmenu:hover .dropdown{
   display: block;
   border: solid 1px red;
+}
+
+.submenu{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
 }
 
 /* 로그인 전의 메인 화면 css */
