@@ -1,4 +1,18 @@
 1. 네비바를 제이쿼리로 바꾸기
+
+>>head에 삽입
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">   
+  $(document).ready( function() {
+    $("#headers").load("../default.html");  // 원하는 파일 경로를 삽입하면 된다
+  });
+</script>
+
+>>body 에 삽입할 내용
+<div id="headers"></div>
+
+
 2. 네비바 배경이미지 지우기
 3. 드롭박스 수정
 4. 호버를 클릭으로 바꾸기 (자바 스크립트)
