@@ -64,48 +64,50 @@
       </article>
     </div>
     
-    <h4 id="title">향수검색</h4>
-    <div class="row row-cols-4" id="searchLine">
-      <div class="col-4">
-        <div class="input-group">
-          <input class="form-control" autocomplete="off" list="datalistOptions" id="exampleDataList" placeholder="향수 명" >
-            <datalist id="datalistOptions">
-              <option value="샤넬 N°5 로 오 드 뚜왈렛" label="CHANEL">
-              <option value="향수명" label="brand name">
-              <option value="향수명" label="brand name">
-              <option value="향수명" label="brand name">
-              <option value="향수명" label="brand name">
-            </datalist>
-          <button class="btn btn-outline-secondary" type="button"><i class="bi bi-search"></i></button>
+    <h4 id="searchTitle">향수검색</h4>
+    <div id="searchGroup">
+      <div class="row row-cols-4" id="searchLine">
+        <div class="col-4">
+          <div class="input-group">
+            <input class="form-control" autocomplete="off" list="datalistOptions" id="exampleDataList" placeholder="향수 명" >
+              <datalist id="datalistOptions">
+                <option value="샤넬 N°5 로 오 드 뚜왈렛" label="CHANEL">
+                <option value="향수명" label="brand name">
+                <option value="향수명" label="brand name">
+                <option value="향수명" label="brand name">
+                <option value="향수명" label="brand name">
+              </datalist>
+            <button class="btn btn-outline-secondary" type="button"><i class="bi bi-search"></i></button>
+          </div>
         </div>
-      </div>
-      <div class="col-3">
-        <input autocomplete="off" class="form-control" list="datalistOptions2" id="exampleDataList" placeholder="브랜드 명">
-          <datalist id="datalistOptions2">
-                <option value="샤넬" label="CHANEL">
-                <option value="브랜드 명" label="brand name">
-                <option value="브랜드 명" label="brand name">
-                <option value="브랜드 명" label="brand name">
-          </datalist>
-      </div>
-      <div class="col-3"> 
-        <select id="inputState" class="form-select">
-          <option selected>향 종류</option>
-          <option>프레쉬</option>
-          <option>우디</option>
-          <option>스파이시</option>
-          <option>플로럴</option>
-          <option>파우더리</option>
-        </select>
-      </div>
-      <div class="col-2">
-        <!-- <label for="inputState" class="form-label">State</label> -->
-        <select id="inputState" class="form-select">
-          <option selected>성별</option>
-          <option>여성</option>
-          <option>남성</option>
-          <option>혼성</option>
-        </select>
+        <div class="col-3">
+          <input autocomplete="off" class="form-control" list="datalistOptions2" id="exampleDataList2" placeholder="브랜드 명">
+            <datalist id="datalistOptions2">
+                  <option value="샤넬" label="CHANEL">
+                  <option value="브랜드 명" label="brand name">
+                  <option value="브랜드 명" label="brand name">
+                  <option value="브랜드 명" label="brand name">
+            </datalist>
+        </div>
+        <div class="col-3"> 
+          <select id="inputState" class="form-select">
+            <option selected>향 종류</option>
+            <option>프레쉬</option>
+            <option>우디</option>
+            <option>스파이시</option>
+            <option>플로럴</option>
+            <option>파우더리</option>
+          </select>
+        </div>
+        <div class="col-2">
+          <!-- <label for="inputState" class="form-label">State</label> -->
+          <select id="inputState" class="form-select">
+            <option selected>성별</option>
+            <option>여성</option>
+            <option>남성</option>
+            <option>혼성</option>
+          </select>
+        </div>
       </div>
     </div>
     
