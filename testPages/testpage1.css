@@ -80,6 +80,7 @@ ul {
 #colums{
   column-width: 100%;
   margin: 5em;
+  text-align: center;
 }
 #colums figure{
   display: inline-block;
