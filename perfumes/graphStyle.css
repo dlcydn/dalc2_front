@@ -1,13 +1,13 @@
-/* #mainGround{ */
-  /* background-image: url('../img/background.png'); /* change */
-  /* background-size: cover; */
-/* } */
-/* #mainGround h1{
+#mainGround{
+  background-image: url('../img/background.png'); 
+  background-size: cover;
+}
+#mainGround h1{
   text-align: center;
   padding: 10%;
-} */
+}
 .container{
-  height: 100vh;
+  /* height: 100vh; */
   background-image: url('../img/background2.png');
   background-size: cover;
 }
