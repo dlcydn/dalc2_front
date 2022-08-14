@@ -1,12 +1,15 @@
-#mainGround{
-  background-image: url('../img/background.png'); /* change */
-  background-size: cover;
-}
+
 #mainGround h1{
   text-align: center;
   padding: 10%;
 }
-
+.container{
+  background-image: url(../img/background.png);
+  background-size: cover;
+}
+#space{
+  height: 20em;
+}
 /* 프레임 구성 css */
 iframe{
   margin-top: 2%;
@@ -36,6 +39,7 @@ h4{
 }
 .row{
   margin: 2%;
+  background-color: white;
 }
 ul li{
   list-style-type: none;
@@ -78,28 +82,17 @@ ul {
   color: black;
 }
 
-/* 드롭박스 메뉴 : 위치 및 css 안됨 */
-#sub-link{
-  text-decoration: none;
-}
-
-.dropdown{
-  display: none;
-  width: 10em;
-  height: 30em;
-  position: absolute;
-  background-color:antiquewhite;
-}
-  
-#dropmenu:hover .dropdown{
-  display: block;
-  border: solid 1px red;
-}
-
-.submenu{
+/* 드롭박스 메뉴 : 위치 및 css 안됨  */
+.drop{
   position: relative;
   display: inline-block;
-  font-size: 14px;
+}
+.dropdown{
+  display: none;
+}
+.drop:hover .dropdown{
+  display: block;
+  border: solid 1px red;
 }
 
 /* 로그인 전의 메인 화면 css */
