@@ -1,7 +1,4 @@
-#mainGround{
-  background-image: url('../img/background.png'); /* change */
-  background-size: cover;
-}
+
 #mainGround h1{
   text-align: center;
   padding: 10%;
@@ -19,6 +16,7 @@ h4{
 }
 .row{
   margin: 2%;
+  background-color: white;
 }
 
 /* 네비 바 css */
@@ -121,4 +119,9 @@ figure img{
   border: none;
   border-bottom: solid 1px black;
   border-radius: 0;
+}
+.container{
+  height: 100%;
+  background-image: url('../img/background2.png');
+  background-size: cover;
 }
