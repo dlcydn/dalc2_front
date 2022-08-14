@@ -27,6 +27,16 @@ iframe{
   margin-bottom: 5%;
   width: 100%;
 }
+
+#popular iframe{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+#popular h4{
+  text-align: center;
+}
+
 h4{
   display: inline;
 }
@@ -38,7 +48,6 @@ h4{
   margin-right: 3%;
 }
 .row{
-  margin: 2%;
   background-color: white;
 }
 ul li{
