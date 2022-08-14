@@ -1,8 +1,4 @@
 
-#mainGround{
-  background-image: url('../img/background.png'); /* change */
-  background-size: cover;
-}
 #mainGround h1{
   text-align: center;
   padding: 10%;
@@ -57,6 +53,10 @@ ul {
 }
 
 /* 메인 화면 */
+.container{
+  background-image: url('../img/background2.png');
+  background-size: cover;
+}
 
 #centerText{
   text-align: center;
@@ -67,15 +67,24 @@ ul {
   /* border: solid 1px red; */
 }
 
-#maintext{
+.row{
   border: solid 1px white;
   height: 90vh;
   background-image: linear-gradient(
-    rgba(225,225,225,0.3),
-    rgba(225,225,225,0.3)
+    rgba(265,265,265,0.3),
+    rgba(265,265,265,0.3)
   ),url('../img/background.png');
   background-size: cover;
 }
-/* border는 원래 화면 영역 편하게 보려고 넣었던것인데 
-  삭제하니까 화면이 이상해져서 그냥 두었습니다..  */
+
+button{
+  width: 139px;
+  color: rgba(0,0,0,1);
+  font-family: Gmarket Sans TTF;
+  font-weight: Light;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+  border-radius: 30px;
+}
 
