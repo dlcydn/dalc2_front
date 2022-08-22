@@ -1,0 +1,44 @@
+.container{
+    height: 100%;
+    background-image: url('../img/background2.png');
+    background-size: cover;
+  }
+
+.content {
+    background: rgba(255, 255, 255, 1);
+    padding: 5em;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.p-div {
+    border: 1px solid;
+    width: 544px;
+    height: 77px;
+    float: left;
+}
+
+.e-div {
+    border: 1px solid;
+    border-left: none;
+    width: 544px;
+    height: 77px;
+    float: left;
+}
+
+.f-div {
+    border: 1px solid;
+    border-top: none;
+    width: 1088px;
+    height: 500px;
+    padding: 12% 30%;
+    text-align: center;
+}
+
+table {
+    width: fit-content;
+    text-align: left;
+}
