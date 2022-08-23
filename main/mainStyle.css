@@ -80,6 +80,7 @@ ul {
   margin-bottom: 10px;
   padding-left: 1em;
   padding-top: 10px;
+  font-size: 17px;
 }
 #sides{
   border: #ccc solid 1px;
@@ -148,6 +149,7 @@ i{
   height: 30px;
 }
 #number{
+  font-size: 20px;
   background-color: #FF6666;
   border-radius: 50%;
   width: 1.5em;
@@ -155,4 +157,10 @@ i{
   text-align: center;
   margin: 0;
   padding: 0;
+}
+#brand{
+  font-size: 14px;
+}
+#pfname{
+  font-size: 23px;
 }
