@@ -10,60 +10,46 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
   rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-  
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
 </head>
-
 <body>
-  
   <div class="container">
-    <!-- <div id="headers"></div>
-    <div id="mask"></div>  -->
     <div style="text-align: center; padding-top: 3em;">
-    <h1>The Scent Of You</h1>
-    <h6>당신의 향기를 찾아보세요</h6><br>
+      <p class="title">The Scent Of You</p>
+      <p class="subtitle">당신의 향기를 찾아보세요</p><br>
     </div>
-    <div class="background1">
-        <div class="form">
-        <p>회원가입</p>
+    <form>
+      <div class="background">
         <div class="signUpForm">
-            <form>
-                <input class="input" type="text" name="_id" size="30" placeholder="ID" required> &nbsp;<button type="button" class="idCheck" onclick="">중복 아이디 확인</button>
-                <br><br>
-                <input class="input" type="password" name="pwd" size="30" placeholder="Password" required>
-                <br><br>
-                <input class="input" type="password" name="pwd" size="30" placeholder="Password 확인" required> &nbsp;<button type="button" class="pwdCheck" onclick="">Password 일치</button>
-                <br><br>
-                <input class="input" type="text" name="_id" size="30" placeholder="Name" required>
-                <br><br>
-                <input class="input" type="email" name="email" size="30" placeholder="E-mail" required> &nbsp;<button type="button" class="emailCheck" onclick="">중복 이메일 확인</button>
-                <br><br>
-                간편 회원 가입<br><br>
-                <a href="#"><img class="icon" src="../icon/naver.png"></a>&nbsp;&nbsp;
-                <a href="#"><img class="icon" src="../icon/kakaotalk.png"></a>&nbsp;&nbsp;
-                <a href="#"><img class="icon" src="../icon/facebook.png"></a>&nbsp;&nbsp;
-                <a href="#"><img class="icon" src="../icon/google.png"></a>
-            </form>
+          <p>회원가입</p>
+          <input class="input" type="text" name="_id" size="30" placeholder="ID" required> &nbsp;<button type="button" class="button idCheck" onclick="">중복 아이디 확인</button>
+          <br><br>
+          <input class="input" type="password" name="pwd" size="30" placeholder="Password" required>
+          <br><br>
+          <input class="input" type="password" name="pwd" size="30" placeholder="Password 확인" required> &nbsp;<button type="button" class="button pwdCheck" onclick="">Password 일치</button>
+          <br><br>
+          <input class="input" type="text" name="_id" size="30" placeholder="Name" required>
+          <br><br>
+          <input class="input" type="email" name="email" size="30" placeholder="E-mail" required> &nbsp;<button type="button" class="button emailCheck" onclick="">중복 이메일 확인</button>
+          <br><br>
         </div>
         <div class="agreement">
-            <form>
-                개인정보 제공 동의<br>
-                <textarea rows="5" cols="30" style="resize: none;" readonly>개인정보 제공 동의서 내용</textarea><br>
-                <input type="checkbox" name="agree1" required>동의합니다<br>
-                <textarea rows="5" cols="30" style="resize: none;" readonly>개인정보 제공 동의서 내용</textarea><br>
-                <input type="checkbox" name="agree2" required>동의합니다<br>
-                <textarea rows="5" cols="30" style="resize: none;" readonly>개인정보 제공 동의서 내용</textarea><br>
-                <input type="checkbox" name="agree3" required>동의합니다<br>
-                <input type="checkbox" name="agreeall" required>모두 동의합니다
-            </form>
+          <p>개인정보 제공 동의</p>
+          <textarea rows="5" cols="30" style="resize: none;" readonly>개인정보 제공 동의서 내용</textarea><br>
+          <input type="checkbox" name="agree1" class="checkbox" required>동의합니다<br><br>
+          <textarea rows="5" cols="30" style="resize: none;" readonly>개인정보 제공 동의서 내용</textarea><br>
+          <input type="checkbox" name="agree2" class="checkbox" required>동의합니다<br><br>
+          <textarea rows="5" cols="30" style="resize: none;" readonly>개인정보 제공 동의서 내용</textarea><br>
+          <input type="checkbox" name="agree3" class="checkbox" required>동의합니다<br><br>
+          <input type="checkbox" name="agreeall" class="checkbox" required>모두 동의합니다
         </div>
         <div style="clear: both;"></div>
-    </div>
-    </div>
-    <div>
+      </div><br>
+      <div class="startbtn">
         <input class="start" type="submit" value="시작하기">
-    </div>
+      </div>
+    </form>
   </div>
 </body>
 </html>
