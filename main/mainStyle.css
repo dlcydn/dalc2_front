@@ -130,7 +130,7 @@ ul {
 span{
   display: inline-block;
   padding: 3px;
-  margin-top: 2em;
+  margin-top: 1em;
   text-align: center;
 }
 #ma{
@@ -154,8 +154,7 @@ i{
   border-radius: 50%;
   width: 1.5em;
   height: 1.5em;
-  text-align: center;
-  margin: 0;
+  margin-left: 5em;
   padding: 0;
 }
 #brand{
