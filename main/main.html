@@ -24,32 +24,54 @@
     <div id="headers"></div>
     <div id="mask"></div>
     <div id="space"></div>
-   <div class="row">
+
+   <div class="row" id="ma">
       <div id="favor" class="col-8">
-        <h4><i class="bi bi-bookmark-star-fill" id="icon"></i> 즐겨찾기 목록 </h4>
-        <a href="https://www.google.co.kr"><img id="iconR" src="../icon/google.png"></a>
-        <a href="https://www.facebook.com"><img id="iconR" src="../icon/facebook.png"></a>
-        <a href="https://www.kakao.com"><img id="iconR" src="../icon/kakaotalk.png"></a>
-        <a href="https://www.naver.com/"><img id="iconR" src="../icon/naver.png"></a>
-        <h4><i class="bi bi-share" id="iconR"></h4></i> 
-        <iframe name="favorFrame"></iframe>
-        <!-- 향조의 종류별 향수 카테고리 
-             사용자 - 향조 선택 - 향수 카테고리 목록 
-             미구현 ) 이름 옆에 별 아이콘으로 사용자의 즐겨찾기 목록에 추가  -->   
+        <h4>인기 향수 TOP3</h4>
+        <div id="popular">
+          <span>
+            <p id="number">1</p>
+            <img src="../img/554X554.jpeg" width="230" height="210">
+            <p>향수 브랜드</p>
+            <p>향수 이름</p>
+          </span>
+          <span>
+            <p id="number">2</p>
+            <img src="../img/554X554.jpeg" width="230" height="210">
+            <p>향수 브랜드</p>
+            <p>향수 이름</p>
+          </span>
+          <span>
+            <p id="number">3</p>
+            <img src="../img/554X554.jpeg" width="230" height="210">
+            <p>향수 브랜드</p>
+            <p>향수 이름</p>
+          </span>
+        </div>
       </div>
-        <div id="side" class="col-4">
+        <div class="col-4">
           <ul>
             <li>
               <div id="profile" >
-                <h4>프로필</h4>
-                <iframe name="profileFrame"></iframe>
+                <h4><i class="bi bi-person"></i> 프로필 <i class="bi bi-pencil-square" id="iconR"></i></h4>
+                <div id="sidep">
+                  <p>이름</p>
+                  <p>나이</p>
+                  <p>성별</p>
+                </div>
                 <!-- 프로필 사진, 이름, 나이, 성별 -->
               </div>
             </li>
-            <li>
+            <li id="sideli">
               <div id="search" >
-                <h4>향수검색</h4>
-                <iframe name="searchFrame"></iframe>
+                <h4><i class="bi bi-search"></i> 향수검색</h4>
+                <div id="sides">
+                  <span id="searchbtn"> 
+                    <i class="bi bi-search"></i>
+                  </span>
+                  <i class="bi bi-sliders" id="filter"></i>
+                  <button value="link" id="linkbtn">검색창 바로가기</button>
+                </div>
                 <!-- 사용자 - 가격, 브랜드 선택 검색필터 
                      인기 향수 목록 -->
               </div>
@@ -57,11 +79,7 @@
           </ul>
         </div>
     </div>
-    <div class="row" id="popular">
-          <h4>인기 향수 목록</h4>
-          <iframe> </iframe>
-
-        </div>
+    
   </div>
 </body>
 </html>
