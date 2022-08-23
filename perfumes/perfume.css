@@ -65,11 +65,23 @@ iframe{
   margin-bottom: 1em;
 }
 #con1{
-  background-image: url();
+  background-image: linear-gradient(
+    rgba(265,265,265,0.3),
+    rgba(265,265,265,0.3)
+  ),url(../img/female.jpg);
+  background-size: cover;
 }
 #con2{
-  background-image: url();
+  background-image: linear-gradient(
+    rgba(265,265,265,0.3),
+    rgba(265,265,265,0.3)
+  ),url(../img/noon.jpg);
+  background-size: cover;
 }
 #con3{
-  background-image: url();
+  background-image: linear-gradient(
+    rgba(265,265,265,0.3),
+    rgba(265,265,265,0.3)
+  ),url(../img/virality.png);
+  background-size: cover;
 }
