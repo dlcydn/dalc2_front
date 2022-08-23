@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
    <link type="text/css" rel="stylesheet" href="signupStyle.css">
+   <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
   <!--  부트스트랩 웹폰트  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
   rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -23,11 +24,11 @@
       <div class="background">
         <div class="signUpForm">
           <p>회원가입</p>
-          <input class="input" type="text" name="_id" size="30" placeholder="ID" required> &nbsp;<button type="button" class="button idCheck" onclick="">중복 아이디 확인</button>
+          <input class="input" type="text" name="_id" id="_id" size="30" placeholder="ID" required> &nbsp;<button type="button" class="button idCheck">중복 아이디 확인</button>
           <br><br>
-          <input class="input" type="password" name="pwd" size="30" placeholder="Password" required>
+          <input class="input" type="password" name="pwd" id="pwd" size="30" placeholder="Password" required>
           <br><br>
-          <input class="input" type="password" name="pwd" size="30" placeholder="Password 확인" required> &nbsp;<button type="button" class="button pwdCheck" onclick="">Password 일치</button>
+          <input class="input" type="password" name="pwdCheck" id="pwdCheck" size="30" placeholder="Password 확인" required> &nbsp;<button type="button" class="button pwdCheck">Password 일치</button>
           <br><br>
           <input class="input" type="text" name="_id" size="30" placeholder="Name" required>
           <br><br>
@@ -159,7 +160,7 @@
   단, 주요 정책과 관련된 내용은 수신동의 여부와 관계없이 발송됩니다.
   선택 약관에 동의하지 않으셔도 회원가입은 가능하며, 회원가입 후 회원정보수정 페이지에서 언제든지 수신여부를 변경하실 수 있습니다.</textarea><br>
           <input type="checkbox" name="agree3" class="checkbox">동의합니다<br><br>
-          <input type="checkbox" name="agreeall" class="checkbox">모두 동의합니다
+          <input type="checkbox" name="agreeall" class="checkall">모두 동의합니다
         </div>
         <div style="clear: both;"></div>
       </div><br>
@@ -168,5 +169,7 @@
       </div>
     </form>
   </div>
+
+  <script type="text/javascript" src="signup.js"></script> 
 </body>
 </html>
