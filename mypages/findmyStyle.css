@@ -73,16 +73,6 @@ table {
     color: #FFFFFF;
 }
 
-a {
-    font-family: 'Gmarket Sans TTF';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #000000;
-}
-
 #n {
     font-family: 'Gmarket Sans TTF';
     font-style: normal;
@@ -98,6 +88,16 @@ a {
     border: 0.821571px solid rgba(0, 0, 0, 0.3);
 }
 
+
+a {
+    font-family: 'Gmarket Sans TTF';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
 a:link {text-decoration:none; color:#000000;} 
 a:visited {text-decoration:none;}
 a:hover {text-decoration:none;}
