@@ -1,9 +1,15 @@
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}
 
+.container{
+  font-family: 'Gmarket Sans TTF';
+}
 #content{
   margin-top: 2em ;
   align-items: center;
 }
-
 #bar{
   margin-top: 2em;
   display: flex;
