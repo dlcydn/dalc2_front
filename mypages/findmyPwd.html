@@ -22,54 +22,34 @@
     <div id="headers"></div>
     <div id="mask"></div> 
     <div class="content">
-      <h2>비밀번호 찾기</h2><br>
+      <h2>아이디 찾기</h2><br>
       <div class="p-div">
         연락처로 찾기
       </div>
       <div class="e-div">
-        이메일로 찾기
       </div>
       <div style="clear: both;"></div>
       <div class="f-div">
         <!-- 연락처로 찾기 클릭시 -->
+        <form>
         <table>
-            <tr>
-                <td>아이디</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>이름</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>휴대전화</td>
-                <td>
-                    <input type="text" size="4" value="010" class="num"> -
-                    <input type="text" size="4" class="num"> -
-                    <input type="text" size="4" class="num">
-                </td>
-            </tr>
+          <tr>
+            <td id="n">아이디</td>
+            <td><input type="text" class="inputbox"><br><br></td>
+          </tr>
+          <tr>
+              <td id="n">이름</td>
+              <td><input type="text" class="inputbox"><br><br></td>
+          </tr>
+          <tr>
+              <td id="n">휴대전화&nbsp;&nbsp;</td>
+              <td>
+                  <input type="text" class="inputbox">
+              </td>
+          </tr>
         </table><br><br>
-        <input type="submit" value="확인"><br><br>
-        <a href="#">아이디 찾기</a>
-
-        <!-- 이메일로 찾기 클릭시 -->
-        <!-- <table>
-            <tr>
-                <td>아이디</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>이름</td>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td>이메일</td>
-                <td><input class="input" type="email" name="email" size="30"required></td>
-            </tr>
-        </table><br><br>
-        <input type="submit" value="확인"><br><br>
-        <a href="#">비밀번호 찾기</a> -->
+        <input type="submit" value="확인" id="submitbtn"></form><br><br>
+        <a href="findmyID.html">아이디 찾기</a>
       </div>
     </div>
   </div>
