@@ -13,6 +13,7 @@
 .container{
   background-image: url('../img/background2.png');
   background-size: cover;
+  font-family: 'Gmarket Sans TTF';
 }
 
 #centerText{
@@ -35,7 +36,6 @@
 }
 #centerText h1{
   font-size: 48px;
-  font-family: 'Gmarket Sans TTF';
 }
  #centerText button{
   width: 496px;
