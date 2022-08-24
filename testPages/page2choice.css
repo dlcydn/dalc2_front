@@ -1,4 +1,11 @@
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}
 
+.container{
+  font-family: 'Gmarket Sans TTF';
+}
 #content{
   margin-top: 2em ;
   align-items: center;
@@ -17,6 +24,7 @@
 #content h4{
   margin-top: 2em;
   text-align: center;
+  font-family: 'Gmarket Sans TTF';
 }
 
 /* 선택지 css */
@@ -42,6 +50,7 @@
   text-align: center;
   padding: 1em;
   font-size: 24px;
+  font-family: 'Gmarket Sans TTF';
 }
 
 /*  */

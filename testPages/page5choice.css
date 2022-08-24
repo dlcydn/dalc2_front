@@ -1,4 +1,11 @@
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}
 
+.container{
+  font-family: 'Gmarket Sans TTF';
+}
 #content{
   margin-top: 2em ;
   align-items: center;
@@ -28,7 +35,7 @@
 .colums figure{
   display: inline-block;
   margin-top: 2em;
-  margin: 5px;
+  margin: 6px;
 }
 .colums figure img:hover {
   border: 5px solid #eee;
@@ -41,7 +48,7 @@
 .colums figure figcaption{
   text-align: center;
   padding: 5px;
-  font-size: 24px;
+  font-size: 22px;
 }
 .colums figure p{
   text-align: center;
