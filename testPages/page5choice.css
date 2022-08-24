@@ -23,6 +23,7 @@
 .colums{
   column-width: 100%;
   text-align: center;
+  margin-top: 2em;
 }
 .colums figure{
   display: inline-block;
