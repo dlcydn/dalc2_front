@@ -15,27 +15,28 @@ $( document ).ready( function() {
   } );
 
 //   이부분 어떻게 구현하나요...
-  $( '.idCheck' ).click( function() {
-    let userId = $('#_id').value();
-    $.ajax({
-        url : "idCheck",
-        type : "post",
-        data : {userId: userId},
-        dataType : 'json',
-        success : function(result){
-            if(result.equals("true")){
-                alert("사용할 수 없는 아이디입니다.");
-                $('#_id').value()='';
-                $('#_id').focus();
-            } else{
-                alert("사용 가능한 아이디입니다.");
-            }
-        },
-        error : function(){
-            alert("서버요청실패");
-        }
-    })
-  } );
+$( '#idCheck' ).click( function() {
+  let userId = $('#_id').val();
+  debugger;
+  console.log(userId);
+  $.ajax({
+      url : "/scentofyou/idCheck.do",
+      type : "POST",
+      data : {"userId" : userId},
+      success : function(data){
+          if(data === "true"){
+              alert("사용할 수 없는 아이디입니다.");
+              $('#_id').attr('value','');
+              $('#_id').focus();
+          } else{
+              alert("사용 가능한 아이디입니다.");
+          }
+      },
+      error : function(){
+          alert("서버요청실패");
+      }
+  })
+} );
 
   $( '.pwdCheck' ).click( function() {
     var p1 = document.getElementById('pwd').value;
