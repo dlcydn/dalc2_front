@@ -75,7 +75,7 @@
   border-radius: 5px;
   background-color: white;
   border: solid 1px rgb(70, 70, 70);
-  padding-left: 13.8em;
+  padding-left: 14em;
 }
 #login{
   border: solid 2px #6CB0C6B2;
@@ -120,7 +120,7 @@ i{
   padding: 0;
 }
 #pfname{
-  font-size: 23px;
+  font-size: 20px;
 }
 
 @font-face {
