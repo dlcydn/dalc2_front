@@ -22,54 +22,42 @@
     <div id="headers"></div>
     <div id="mask"></div> 
     <div class="content">
-      <h2>개인정보</h2><br>
+      <h2><i class="bi bi-person"></i>개인정보</h2><br><br>
       <form>
         <table>
           <tr>
-            <td>이름<br><br></td>
+            <td id="n">이름<br><br></td>
             <td>
-              <input type="text" class="profile"><br><br>
+              <input type="text" class="profile" value="" readonly disabled><br><br>
             </td>
           </tr>
           <tr>
-            <td>아이디<br><br></td>
-            <td><input type="text" class="profile"><br><br></td>
+            <td id="n">아이디<br><br></td>
+            <td><input type="text" class="profile" value="" readonly disabled><br><br></td>
           </tr>
           <tr>
-            <td>비밀번호<br><br></td>
+            <td id="n">비밀번호<br><br></td>
             <td><input type="password" class="profile"><br><br></td>
           </tr>
           <tr>
-            <td>비밀번호 확인&nbsp;&nbsp;&nbsp;<br><br></td>
+            <td id="n">비밀번호 확인&nbsp;&nbsp;&nbsp;<br><br></td>
             <td><input type="password" class="profile"><br><br></td>
           </tr>
           <tr>
-            <td>휴대전화<br><br></td>
-            <td><input type="text" size="4" value="010" class="num"> -
-                <input type="text" size="4" class="num"> -
-                <input type="text" size="4" class="num"><br><br>
+            <td id="n">휴대전화<br><br></td>
+            <td><input type="text" class="profile" value=""><br><br>
               </td>
           </tr>
           <tr>
-            <td>성별<br><br></td>
+            <td id="n">성별<br><br></td>
             <td>
-              <input type="radio" name="gender" value="여성" checked>여성 
-              <input type="radio" name="gender" value="남성">남성<br><br>
-            </td>
-          </tr>
-          <tr>
-            <td>생년월일</td>
-            <td>
-              <input type="text" size="4" class="num">년
-              <input type="text" size="4" class="num">월
-              <input type="text" size="4" class="num">일
+              <input type="text" class="profile" value="" readonly disabled><br><br>
             </td>
           </tr>
         </table>
-      </form>
       <br><br>
-      <span><input type="button" value="회원탈퇴"></span>
-      <div class="btn1"><input type="button" value="취소">&nbsp;<input type="button" value="수정"></div>
+      <div class="btn1"><input type="reset" value="취소" id="cancel">&nbsp;<input type="submit" value="수정" id="submitbtn"></div></form>
+      <span><input type="button" value="회원탈퇴" id="withdrawal" disabled></span>
     </div>
   </div>
 </body>
