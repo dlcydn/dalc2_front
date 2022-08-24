@@ -4,6 +4,7 @@
   height: 100%;
   background-image: url('../img/background2.png');
   background-size: cover;
+  font-family: 'Gmarket Sans TTF';
 }
 .background{
   background-color: rgba(255, 255, 255, 0.5);
@@ -84,4 +85,8 @@ iframe{
     rgba(265,265,265,0.3)
   ),url(../img/virality.png);
   background-size: cover;
+}
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
 }

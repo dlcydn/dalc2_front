@@ -6,6 +6,7 @@
 .container{
   background-image: url('../img/background2.png');
   background-size: cover;
+  font-family: 'Gmarket Sans TTF';
 }
 h4{
   display: inline;
@@ -64,4 +65,8 @@ figure button{
   padding-left: 10px;
   padding-right: 10px;
   margin-bottom: 5px;
+}
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
 }

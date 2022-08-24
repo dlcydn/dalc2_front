@@ -82,4 +82,9 @@ figure button{
   height: 100%;
   background-image: url('../img/background2.png');
   background-size: cover;
+  font-family: 'Gmarket Sans TTF';
+}
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
 }
