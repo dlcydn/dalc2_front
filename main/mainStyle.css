@@ -6,6 +6,7 @@
 .container{
   background-image: url(../img/background.png);
   background-size: cover;
+  font-family: 'Gmarket Sans TTF';
 }
 #space{
   height: 20em;
@@ -120,4 +121,9 @@ i{
 }
 #pfname{
   font-size: 23px;
+}
+
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
 }

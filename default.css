@@ -122,3 +122,8 @@ ul {
 .title {
   color: #000;
 }
+
+@font-face {
+  font-family: 'Gmarket Sans TTF';
+  src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+}
