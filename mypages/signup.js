@@ -15,7 +15,7 @@ $( document ).ready( function() {
   } );
 
 //   이부분 어떻게 구현하나요...
-$( '#idCheck' ).click( function() {
+$( '.idCheck' ).click( function() {
   let userId = $('#_id').val();
   debugger;
   console.log(userId);
