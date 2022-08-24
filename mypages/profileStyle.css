@@ -93,3 +93,8 @@ label {
     line-height: 26px;
     color: #FFFFFF;
 }
+
+@font-face {
+    font-family: 'Gmarket Sans TTF';
+    src: url('../font/GmarketSansTTFLight.ttf') format('truetype');
+  }
