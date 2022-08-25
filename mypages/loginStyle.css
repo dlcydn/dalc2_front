@@ -31,6 +31,7 @@
     height: 100vh;
     background-image: url('../img/background2.png');
     background-size: cover;
+    font-family: 'Gmarket Sans TTF';
   }
   /* 연령에 따른 */
   .background2{
